@@ -17,7 +17,7 @@ setup(
     long_description = 'text/markdown',
     url = '',
     package = [SRC_REPO],
-    python_requires = '>=3.12',
+    python_requires = '>=3.11',
     install_requirements = LIST_OF_REQUIREMENTS
 )
 
