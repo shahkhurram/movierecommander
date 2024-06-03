@@ -39,22 +39,22 @@ selected_movie = st.selectbox(
 
 if st.button('Recommend'):
     recommended_titles, recommended_posters = recommend(selected_movie)
-
+    st.write('Movies similar to "'+selected_movie+'".' )
     col1,col2,col3,col4,col5=st.columns(5)
     with col1:
-        st.write(recommended_titles[0])
         st.image(recommended_posters[0])
+        st.write(recommended_titles[0])
     with col2:
-        st.write(recommended_titles[1])
         st.image(recommended_posters[1])
+        st.write(recommended_titles[1])
     with col3:
-        st.write(recommended_titles[2])
         st.image(recommended_posters[2])
+        st.write(recommended_titles[2])
     with col4:
-        st.write(recommended_titles[3])
         st.image(recommended_posters[3])
+        st.write(recommended_titles[3])
     with col5:
-        st.write(recommended_titles[4])
         st.image(recommended_posters[4])
+        st.write(recommended_titles[4])
          
  
