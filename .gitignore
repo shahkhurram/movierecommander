@@ -8,3 +8,11 @@ celerybeat.pid
 
 .env
 .venv
+
+
+__pycache__/
+*.pyc
+.vscode/
+env/
+.env
+artifacts/
