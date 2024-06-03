@@ -20,3 +20,7 @@ setup(
     python_requires = '>=3.12',
     install_requirements = LIST_OF_REQUIREMENTS
 )
+
+
+
+
