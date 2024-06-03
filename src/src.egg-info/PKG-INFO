@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: src
+Version: 0.0.1
+Summary: A small package of movies recommander system
+Home-page: 
+Author-email: khurramgaur8@gmail.com
+Requires-Python: >=3.12
+
+text/markdown
